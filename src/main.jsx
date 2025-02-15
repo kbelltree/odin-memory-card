@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import GameBoard from './components/Gameboard'
+import GameBoard from './components/GameBoard'
 import Instructions from './components/Instructions'
 import Footer from './components/Footer'
 import './styles/base.css'
