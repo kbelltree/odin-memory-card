@@ -1,0 +1,88 @@
+/* bungee-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Bungee';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/bungee-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* quicksand-600 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/fonts/quicksand-v31-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+    --main-color: #fb8f56;
+    --text-color-dark: #55433b;
+    --text-color-light: #905f47;
+    --background-color-base: #fff9ec;
+    --background-color-map: #f8e8c1;
+    --shadow-color: #2b3a67;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: var(--text-color-light);
+    width: 100%;
+    height: 100vh;
+    background-color: var(--background-color-base);
+    background-image: url(/images/map.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Bungee', serif;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Quicksand', serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    min-width: 320px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+@media (min-width: 650px) {
+    .container {
+        max-width: 1200px;
+        width: 95%;
+        position: relative;
+    }
+}
