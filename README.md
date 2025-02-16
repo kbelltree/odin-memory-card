@@ -46,3 +46,7 @@ The application includes the following core components:
 - [How to Shuffle the Elements of an Array in JavaScript? by GeeksforGeeks](https://www.geeksforgeeks.org/how-to-shuffle-the-elements-of-an-array-in-javascript/)
 
 - [How to Refresh a Page or Component in React by Upmostly](https://upmostly.com/tutorials/how-to-refresh-a-page-or-component-in-react)
+
+- [Solving Sticky Hover States with @media (hover: hover) by CSS-Tricks](https://css-tricks.com/solving-sticky-hover-states-with-media-hover-hover/)
+
+- [Finally, a CSS Only Solution to :hover on Touchscreens by Mezo Istvan](https://itnext.io/finally-a-css-only-solution-to-hover-on-touchscreens-c498af39c31c)
