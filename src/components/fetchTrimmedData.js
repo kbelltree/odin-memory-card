@@ -1,6 +1,8 @@
 async function fetchTrimmedData() {
     try {
-        const response = await fetch('https://restcountries.com/v3.1/all')
+        const response = await fetch(
+            'https://restcountries.com/v3.1/all?fields=name,flags'
+        )
         const flagsData = await response.json()
         return flagsData.map((item) => ({
             name: item.name.common,
